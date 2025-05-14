@@ -15,6 +15,7 @@ Exporting gateway configuration is simplified or even automated.
 - Link an Ignition project with a remote repo, (Gateway Webpage)
 - Link an Ignition user to a git project, with ssh or user/password authentication, (Gateway Webpage)
 - Commit resources, (Designer, on project saved or from git toolbar)
+- Commit popup now pre‑fills a [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) template and blocks the *Commit* button until the headline is valid, ensuring consistent messages and most importantly allow remote repo CI/CD to automatically generating `CHANGELOG.md` and automatically determining a semantic version bump.
 - Push & Pull resources, (Designer, from git toolbar)
 - Export of the gateway configuration. Tags, images, theme... (Designer, from git toolbar)
 - Commit popup :<br/>
